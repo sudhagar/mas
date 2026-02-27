@@ -4,10 +4,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAS Mahal | Premium Wedding & Event Venue</title>
+        <title>Wedding Hall in Tirupathur | MAS Mahal Marriage Hall & Event Venue</title>
     <meta name="description"
-        content="MAS Mahal - A premium air-conditioned wedding and event venue in Manavala Nagar, Tiruvallur. Perfect for weddings, receptions, and corporate events.">
-    <!-- Google Fonts -->
+        content="MAS Mahal is a spacious marriage hall and event venue in Tirupathur, Tamil Nadu for weddings, receptions, engagement ceremonies, birthday parties, and corporate events.">
+    <meta name="keywords"
+        content="wedding hall in Tirupathur, marriage hall Tirupathur, kalyana mandapam Tirupathur, reception hall Tirupathur, event venue Tirupathur, MAS Mahal">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="MAS Mahal">
+    <link rel="canonical" href="https://masmahal.co.in/index.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wedding Hall in Tirupathur | MAS Mahal Marriage Hall & Event Venue">
+    <meta property="og:description"
+        content="Book MAS Mahal in Tirupathur for weddings, receptions, and family events with spacious hall facilities, parking, and modern dining support.">
+    <meta property="og:url" content="https://masmahal.co.in/index.html">
+    <meta property="og:image" content="https://masmahal.co.in/assets/images/logo-new.png">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Wedding Hall in Tirupathur | MAS Mahal">
+    <meta name="twitter:description"
+        content="Premium marriage hall in Tirupathur for weddings, receptions, engagement events, and corporate gatherings.">
+    <meta name="twitter:image" content="https://masmahal.co.in/assets/images/logo-new.png">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "EventVenue",
+              "name": "MAS Mahal",
+              "url": "https://masmahal.co.in/",
+              "image": "https://masmahal.co.in/assets/images/logo-new.png",
+              "description": "MAS Mahal is a premium wedding and event venue in Tirupathur with a spacious hall, parking, and modern guest facilities.",
+              "telephone": "+91-99658-57746",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Housing Board",
+                "addressLocality": "Tirupathur",
+                "addressRegion": "Tamil Nadu",
+                "postalCode": "635601",
+                "addressCountry": "IN"
+              },
+              "areaServed": "Tirupathur and nearby areas"
+            },
+            {
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "Where is MAS Mahal located?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "MAS Mahal is located at Housing Board, Tirupathur, Tamil Nadu - 635601."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "What events can be hosted at MAS Mahal?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can host weddings, receptions, engagement functions, birthday parties, and corporate events at MAS Mahal."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "How can I check date availability?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Call +91 99658 57746 or use the WhatsApp chat option on the website to check available dates and pricing."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+    </script>
+<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -52,14 +125,28 @@
     <header>
         <div class="container">
             <nav>
+                <ul class="nav-links nav-left">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+
                 <div class="logo">
-                    <a href="index.html"> <img src="./assets/images/logo.png" alt="MAS Mahal logo" style="width: 70%;"> </a>
+                    <a href="index.html"><img src="./assets/images/logo.png" alt="MAS Mahal logo"></a>
                 </div>
+
+                <ul class="nav-links nav-right">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html" class="btn" style="padding: 10px 25px; font-size: 0.8rem;">Book Now</a>
+                    </li>
+                </ul>
+
                 <div class="mobile-menu-btn"
-                    onclick="document.querySelector('.nav-links').style.display = document.querySelector('.nav-links').style.display=='flex'?'none':'flex'; document.querySelector('.nav-links').style.flexDirection='column'; document.querySelector('.nav-links').style.position='absolute'; document.querySelector('.nav-links').style.top='80px'; document.querySelector('.nav-links').style.left='0'; document.querySelector('.nav-links').style.background='#fff'; document.querySelector('.nav-links').style.width='100%'; document.querySelector('.nav-links').style.padding='20px 0'; document.querySelector('.nav-links').style.boxShadow='0 5px 10px rgba(0,0,0,0.1)';">
+                    onclick="const menu = document.querySelector('.nav-links-mobile'); menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';">
                     &#9776;
                 </div>
-                <ul class="nav-links">
+
+                <ul class="nav-links-mobile">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -75,8 +162,8 @@
 <section class="hero"
     style="background-image: url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
     <div class="container hero-content">
-        <h1>MAKE YOUR EVENT UNFORGETTABLE</h1>
-        <p>The Premium Destination for Weddings & Corporate Events in Tirupathur</p>
+        <h1>Wedding Hall in Tirupathur for Memorable Events</h1>
+        <p>MAS Mahal is a trusted marriage hall for weddings, receptions, and family celebrations in Tirupathur.</p>
         <div style="margin-top: 30px;">
             <a href="contact.html" class="btn">Check Availability</a>
             <a href="about.html" class="btn btn-secondary" style="margin-left: 15px;">Discover More</a>
@@ -90,26 +177,17 @@
         <div class="split-layout">
             <div class="split-image">
                 <img src="assets/images/home.webp"
-                    alt="Interior">
+                    alt="MAS Mahal wedding hall interior in Tirupathur" loading="lazy">
             </div>
             <div class="split-content">
                 <h2>A Venue for Timeless Memories</h2>
-                <p>MAS Mahal is a premier wedding and event venue located in Housing Board, Tirupathur. We understand
-                    that your special day deserves nothing but the best.</p>
-                <p>Our hall is designed to offer a blend of traditional elegance and modern amenities, making it the
-                    ideal choice for weddings, betrothals, birthday parties, and corporate functions.</p>
-
-                <div style="display: flex; gap: 30px; margin-top: 30px;">
-                    <div>
-                        <h4 style="color:var(--primary-color); font-size: 2rem; margin-bottom: 0;">1000+</h4>
-                        <p style="font-size: 0.9rem;">Happy Guests</p>
-                    </div>
-                    <div>
-                        <h4 style="color:var(--primary-color); font-size: 2rem; margin-bottom: 0;">500+</h4>
-                        <p style="font-size: 0.9rem;">Successful Events</p>
-                    </div>
-                </div>
-
+                <p>MAS Mahal is a premium wedding hall in Tirupathur designed for grand celebrations and smooth event
+                    management. Our spacious non-AC hall is ideal for weddings, receptions, engagement ceremonies,
+                    birthday parties, and community events.</p>
+                <p>With dedicated parking, organized dining space, and practical guest-friendly facilities, we help
+                    families host stress-free functions in a clean and comfortable environment.</p>
+                <p>Explore our <a href="services.html" style="text-decoration: underline;">event services</a> and
+                    contact us to check date availability and booking details.</p>
                 <a href="about.html" class="btn" style="margin-top: 30px; display: inline-block;">Read Our Story</a>
             </div>
         </div>
@@ -128,10 +206,10 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
             <!-- Card 1 -->
             <div class="service-card">
-                <div class="service-icon">&#10052;</div>
-                <h3>Fully Air-Conditioned</h3>
-                <p>Experience comfort in our spacious, fully air-conditioned hall, perfect for large gatherings
-                    regardless of the weather.</p>
+                <div class="service-icon">&#127807;</div>
+                <h3>Spacious Non-AC Hall</h3>
+                <p>Host your events in our roomy, well-ventilated non-AC hall with a comfortable and airy environment
+                    for all types of gatherings.</p>
             </div>
             <!-- Card 2 -->
             <div class="service-card">
@@ -146,6 +224,29 @@
                 <h3>Modern Dining</h3>
                 <p>Hygienic and well-planned dining hall to serve your guests with delicious food in a clean
                     environment.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px;">
+            <div class="service-card">
+                <h3>Where is MAS Mahal located?</h3>
+                <p>MAS Mahal is located at Housing Board, Tirupathur, Tamil Nadu - 635601.</p>
+            </div>
+            <div class="service-card">
+                <h3>What events do you host?</h3>
+                <p>We host weddings, receptions, engagement events, birthday functions, and corporate gatherings.</p>
+            </div>
+            <div class="service-card">
+                <h3>How do I check availability?</h3>
+                <p>Call <a href="tel:+919965857746" style="text-decoration: underline;">+91 99658 57746</a> or use the
+                    WhatsApp button to confirm available dates and package details.</p>
             </div>
         </div>
     </div>
@@ -202,6 +303,14 @@
         </div>
     </div>
 </footer>
+
+<a class="whatsapp-float" href="https://wa.me/919965857746?text=Hi%20MAS%20Mahal%2C%20I%20want%20to%20check%20hall%20availability."
+    target="_blank" rel="noopener noreferrer" aria-label="Chat with MAS Mahal on WhatsApp">
+    <span class="whatsapp-float-icon" aria-hidden="true">
+        <img src="assets/images/whatsapp.jpg" alt="WhatsApp icon">
+    </span>
+    <span class="whatsapp-float-label">WhatsApp</span>
+</a>
 
     <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
 

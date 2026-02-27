@@ -4,9 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAS Mahal | Premium Wedding & Event Venue</title>
+        <title>About MAS Mahal | Wedding and Event Venue in Tirupathur</title>
     <meta name="description"
-        content="MAS Mahal - A premium air-conditioned wedding and event venue in Manavala Nagar, Tiruvallur. Perfect for weddings, receptions, and corporate events.">
+        content="Learn about MAS Mahal, a trusted wedding and event venue in Tirupathur known for spacious halls, practical facilities, and reliable service for family celebrations.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://masmahal.co.in/about.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About MAS Mahal | Wedding and Event Venue in Tirupathur">
+    <meta property="og:description"
+        content="Read the story of MAS Mahal and why families across Tirupathur choose us for weddings, receptions, and community events.">
+    <meta property="og:url" content="https://masmahal.co.in/about.html">
+    <meta property="og:image" content="https://masmahal.co.in/assets/images/logo-new.png">
+    <meta property="og:locale" content="en_IN">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="About MAS Mahal | Tirupathur Wedding Hall">
+    <meta name="twitter:description"
+        content="Discover MAS Mahal's mission, facilities, and commitment to hosting memorable events in Tirupathur.">
+    <meta name="twitter:image" content="https://masmahal.co.in/assets/images/logo-new.png">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "AboutPage",
+          "name": "About MAS Mahal",
+          "url": "https://masmahal.co.in/about.html",
+          "description": "About MAS Mahal, a wedding and event venue in Tirupathur, Tamil Nadu."
+        }
+    </script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,14 +79,28 @@
     <header>
         <div class="container">
             <nav>
+                <ul class="nav-links nav-left">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+
                 <div class="logo">
-                    <a href="index.html"> <img src="./assets/images/logo.png" alt="MAS Mahal logo" style="width: 70%;"> </a>
+                    <a href="index.html"><img src="./assets/images/logo.png" alt="MAS Mahal logo"></a>
                 </div>
+
+                <ul class="nav-links nav-right">
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html" class="btn" style="padding: 10px 25px; font-size: 0.8rem;">Book Now</a>
+                    </li>
+                </ul>
+
                 <div class="mobile-menu-btn"
-                    onclick="document.querySelector('.nav-links').style.display = document.querySelector('.nav-links').style.display=='flex'?'none':'flex'; document.querySelector('.nav-links').style.flexDirection='column'; document.querySelector('.nav-links').style.position='absolute'; document.querySelector('.nav-links').style.top='80px'; document.querySelector('.nav-links').style.left='0'; document.querySelector('.nav-links').style.background='#fff'; document.querySelector('.nav-links').style.width='100%'; document.querySelector('.nav-links').style.padding='20px 0'; document.querySelector('.nav-links').style.boxShadow='0 5px 10px rgba(0,0,0,0.1)';">
+                    onclick="const menu = document.querySelector('.nav-links-mobile'); menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';">
                     &#9776;
                 </div>
-                <ul class="nav-links">
+
+                <ul class="nav-links-mobile">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
@@ -76,7 +117,7 @@
     style="min-height: 150px; background-image: url('assets/images/design.webp');">
     <div class="container hero-content">
         <h1>About MAS Mahal</h1>
-        <p>Tradition meets Modern Luxury</p>
+        <p>A trusted wedding and event venue in Tirupathur, Tamil Nadu.</p>
     </div>
 </section>
 
@@ -98,8 +139,7 @@
                     cleanliness, guest safety, and efficient service above all else.</p>
             </div>
             <div class="split-image">
-                <img src="assets/images/mas.jpg"
-                    alt="Venue Story">
+                <img src="assets/images/mas.JPG" alt="MAS Mahal event venue exterior view in Tirupathur" loading="lazy">
             </div>
         </div>
     </div>
@@ -123,8 +163,8 @@
                 <div
                     style="width: 60px; height: 60px; background: var(--secondary-color); border-radius: 50%; display:flex; align-items:center; justify-content:center; margin: 0 auto 20px; color: white; font-weight: bold; font-size: 1.2rem;">
                     02</div>
-                <h4>State-of-the-Art</h4>
-                <p>Modern AC systems and lighting.</p>
+                <h4>Well-Ventilated Space</h4>
+                <p>Comfort-focused non-AC hall with practical airflow and event-friendly layout.</p>
             </div>
             <div>
                 <div
@@ -185,6 +225,14 @@
         </div>
     </div>
 </footer>
+
+<a class="whatsapp-float" href="https://wa.me/919965857746?text=Hi%20MAS%20Mahal%2C%20I%20want%20to%20check%20hall%20availability."
+    target="_blank" rel="noopener noreferrer" aria-label="Chat with MAS Mahal on WhatsApp">
+    <span class="whatsapp-float-icon" aria-hidden="true">
+        <img src="assets/images/whatsapp.jpg" alt="WhatsApp icon">
+    </span>
+    <span class="whatsapp-float-label">WhatsApp</span>
+</a>
 
     <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
 

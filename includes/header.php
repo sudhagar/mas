@@ -52,14 +52,28 @@
     <header>
         <div class="container">
             <nav>
+                <ul class="nav-links nav-left">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                </ul>
+
                 <div class="logo">
-                    <a href="index.php"> <image src="./assets/images/logo.png" style="width: 70%;"> </a>
+                    <a href="index.php"><img src="./assets/images/logo.png" alt="MAS Mahal logo"></a>
                 </div>
+
+                <ul class="nav-links nav-right">
+                    <li><a href="services.php">Services</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="contact.php" class="btn" style="padding: 10px 25px; font-size: 0.8rem;">Book Now</a>
+                    </li>
+                </ul>
+
                 <div class="mobile-menu-btn"
-                    onclick="document.querySelector('.nav-links').style.display = document.querySelector('.nav-links').style.display=='flex'?'none':'flex'; document.querySelector('.nav-links').style.flexDirection='column'; document.querySelector('.nav-links').style.position='absolute'; document.querySelector('.nav-links').style.top='80px'; document.querySelector('.nav-links').style.left='0'; document.querySelector('.nav-links').style.background='#fff'; document.querySelector('.nav-links').style.width='100%'; document.querySelector('.nav-links').style.padding='20px 0'; document.querySelector('.nav-links').style.boxShadow='0 5px 10px rgba(0,0,0,0.1)';">
+                    onclick="const menu = document.querySelector('.nav-links-mobile'); menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';">
                     &#9776;
                 </div>
-                <ul class="nav-links">
+
+                <ul class="nav-links-mobile">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="services.php">Services</a></li>

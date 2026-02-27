@@ -40,6 +40,14 @@
     </div>
 </footer>
 
+<a class="whatsapp-float" href="https://wa.me/919965857746?text=Hi%20MAS%20Mahal%2C%20I%20want%20to%20check%20hall%20availability."
+    target="_blank" rel="noopener noreferrer" aria-label="Chat with MAS Mahal on WhatsApp">
+    <span class="whatsapp-float-icon" aria-hidden="true">
+        <img src="assets/images/whatsapp.jpg" alt="">
+    </span>
+    <span class="whatsapp-float-label">WhatsApp</span>
+</a>
+
 </body>
 
 </html>
