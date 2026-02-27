@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAS Mahal | Premium Wedding & Event Venue</title>
+    <meta name="description"
+        content="MAS Mahal - A premium air-conditioned wedding and event venue in Manavala Nagar, Tiruvallur. Perfect for weddings, receptions, and corporate events.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Mobile Menu Basic Implementation */
+        .mobile-menu-btn {
+            display: none;
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        @media(max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div>
+                <span><i style="color:var(--secondary-color)">&#9990;</i> +91 99658 57746</span>
+                <span style="margin-left: 20px"><i style="color:var(--secondary-color)">&#9993;</i> Housing Board,
+                    Tirupathur</span>
+            </div>
+            <div>
+                <!-- Social Icons or Opening Hours could go here -->
+                <span>Every Event, A Precious Memory.</span>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"> <img src="./assets/images/logo.png" alt="MAS Mahal logo" style="width: 70%;"> </a>
+                </div>
+                <div class="mobile-menu-btn"
+                    onclick="document.querySelector('.nav-links').style.display = document.querySelector('.nav-links').style.display=='flex'?'none':'flex'; document.querySelector('.nav-links').style.flexDirection='column'; document.querySelector('.nav-links').style.position='absolute'; document.querySelector('.nav-links').style.top='80px'; document.querySelector('.nav-links').style.left='0'; document.querySelector('.nav-links').style.background='#fff'; document.querySelector('.nav-links').style.width='100%'; document.querySelector('.nav-links').style.padding='20px 0'; document.querySelector('.nav-links').style.boxShadow='0 5px 10px rgba(0,0,0,0.1)';">
+                    &#9776;
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html" class="btn" style="padding: 10px 25px; font-size: 0.8rem;">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Hero Section -->
+<section class="hero"
+    style="background-image: url('https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');">
+    <div class="container hero-content">
+        <h1>MAKE YOUR EVENT UNFORGETTABLE</h1>
+        <p>The Premium Destination for Weddings & Corporate Events in Tirupathur</p>
+        <div style="margin-top: 30px;">
+            <a href="contact.html" class="btn">Check Availability</a>
+            <a href="about.html" class="btn btn-secondary" style="margin-left: 15px;">Discover More</a>
+        </div>
+    </div>
+</section>
+
+<!-- Features / Intro -->
+<section class="section">
+    <div class="container">
+        <div class="split-layout">
+            <div class="split-image">
+                <img src="assets/images/home.webp"
+                    alt="Interior">
+            </div>
+            <div class="split-content">
+                <h2>A Venue for Timeless Memories</h2>
+                <p>MAS Mahal is a premier wedding and event venue located in Housing Board, Tirupathur. We understand
+                    that your special day deserves nothing but the best.</p>
+                <p>Our hall is designed to offer a blend of traditional elegance and modern amenities, making it the
+                    ideal choice for weddings, betrothals, birthday parties, and corporate functions.</p>
+
+                <div style="display: flex; gap: 30px; margin-top: 30px;">
+                    <div>
+                        <h4 style="color:var(--primary-color); font-size: 2rem; margin-bottom: 0;">1000+</h4>
+                        <p style="font-size: 0.9rem;">Happy Guests</p>
+                    </div>
+                    <div>
+                        <h4 style="color:var(--primary-color); font-size: 2rem; margin-bottom: 0;">500+</h4>
+                        <p style="font-size: 0.9rem;">Successful Events</p>
+                    </div>
+                </div>
+
+                <a href="about.html" class="btn" style="margin-top: 30px; display: inline-block;">Read Our Story</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Preview -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="section-title">
+            <h2>Why Choose Us?</h2>
+            <p style="max-width: 600px; margin: 20px auto 0;">Experience world-class hospitality and amenities designed
+                to make your event seamless.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+            <!-- Card 1 -->
+            <div class="service-card">
+                <div class="service-icon">&#10052;</div>
+                <h3>Fully Air-Conditioned</h3>
+                <p>Experience comfort in our spacious, fully air-conditioned hall, perfect for large gatherings
+                    regardless of the weather.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="service-card">
+                <div class="service-icon">&#128663;</div>
+                <h3>Ample Parking</h3>
+                <p>Spacious dedicated parking area for cars and two-wheelers to ensure a hassle-free experience for your
+                    guests.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="service-card">
+                <div class="service-icon">&#127869;</div>
+                <h3>Modern Dining</h3>
+                <p>Hygienic and well-planned dining hall to serve your guests with delicious food in a clean
+                    environment.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="section" style="background-color: var(--primary-color); color: var(--white); text-align: center;">
+    <div class="container">
+        <h2 style="color: var(--white); margin-bottom: 1.5rem;">Ready to Plan Your Big Day?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2.5rem; opacity: 0.9;">Contact us today to verify dates and get a
+            custom quote.</p>
+        <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>About MAS Mahal</h3>
+                <p>A premium destination for all your auspicious events. Located in the heart of Tirupathur, we offer
+                    luxury and comfort at an affordable price.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Wedding Hall</a></li>
+                    <li><a href="services.html">Corporate Events</a></li>
+                    <li><a href="services.html">Birthday Parties</a></li>
+                    <li><a href="services.html">Dining Hall</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>Housing Board, Tirupathur</li>
+                    <li>Tamil Nadu - 635601</li>
+                    <li><strong>Phone:</strong> +91 99658 57746</li>
+                    <li><strong>Email:</strong> info@masmahal.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="current-year"></span> MAS Mahal. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAS Mahal | Premium Wedding & Event Venue</title>
+    <meta name="description"
+        content="MAS Mahal - A premium air-conditioned wedding and event venue in Manavala Nagar, Tiruvallur. Perfect for weddings, receptions, and corporate events.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Mobile Menu Basic Implementation */
+        .mobile-menu-btn {
+            display: none;
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        @media(max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div>
+                <span><i style="color:var(--secondary-color)">&#9990;</i> +91 99658 57746</span>
+                <span style="margin-left: 20px"><i style="color:var(--secondary-color)">&#9993;</i> Housing Board,
+                    Tirupathur</span>
+            </div>
+            <div>
+                <!-- Social Icons or Opening Hours could go here -->
+                <span>Every Event, A Precious Memory.</span>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html"> <img src="./assets/images/logo.png" alt="MAS Mahal logo" style="width: 70%;"> </a>
+                </div>
+                <div class="mobile-menu-btn"
+                    onclick="document.querySelector('.nav-links').style.display = document.querySelector('.nav-links').style.display=='flex'?'none':'flex'; document.querySelector('.nav-links').style.flexDirection='column'; document.querySelector('.nav-links').style.position='absolute'; document.querySelector('.nav-links').style.top='80px'; document.querySelector('.nav-links').style.left='0'; document.querySelector('.nav-links').style.background='#fff'; document.querySelector('.nav-links').style.width='100%'; document.querySelector('.nav-links').style.padding='20px 0'; document.querySelector('.nav-links').style.boxShadow='0 5px 10px rgba(0,0,0,0.1)';">
+                    &#9776;
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html" class="btn" style="padding: 10px 25px; font-size: 0.8rem;">Book Now</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!-- Page Header -->
+<section class="hero"
+    style="min-height: 150px; background-image: url('assets/images/design.webp');">
+    <div class="container hero-content">
+        <h1>Contact Us</h1>
+        <p>Start Planning Your Event Today</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section class="section">
+    <div class="container">
+        <div class="split-layout" style="align-items: flex-start;">
+
+            <!-- Info Side -->
+            <div>
+                <div class="section-title" style="text-align: left;">
+                    <h2>Get In Touch</h2>
+                </div>
+                <p style="margin-bottom: 40px;">Have questions about availability, pricing, or our services? Reach out
+                    to us directly or fill out the form, and we'll get back to you shortly.</p>
+
+                <div class="contact-box">
+                    <div class="contact-icon">&#128205;</div>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Visit Us</h4>
+                        <p>Housing Board, Tirupathur<br>Tamil Nadu - 635601</p>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <div class="contact-icon">&#9990;</div>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Call Us</h4>
+                        <p>+91 99658 57746</p>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <div class="contact-icon">&#9993;</div>
+                    <div>
+                        <h4 style="margin-bottom: 5px;">Email Us</h4>
+                        <p>info@masmahal.com</p>
+                    </div>
+                </div>
+
+                <!-- Google Map -->
+                <div
+                    style="margin-top: 40px; border-radius: 8px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.267675276364!2d78.567!3d12.347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bada2a8e8e8e8e9%3A0x6e6e6e6e6e6e6e6e!2sTirupathur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1625633000000!5m2!1sen!2sin"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- Form Side -->
+            <div style="background: var(--bg-light); padding: 40px; border-radius: 8px;">
+                <h3 style="margin-bottom: 30px;">Send a Message</h3>
+                <form action="#" method="post">
+                    <div>
+                        <label for="name"
+                            style="font-weight: 600; font-size: 0.9rem; margin-bottom: 8px; display: block;">Your
+                            Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div>
+                        <label for="email"
+                            style="font-weight: 600; font-size: 0.9rem; margin-bottom: 8px; display: block;">Your
+                            Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div>
+                        <label for="phone"
+                            style="font-weight: 600; font-size: 0.9rem; margin-bottom: 8px; display: block;">Your
+                            Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 99999 99999">
+                    </div>
+                    <div>
+                        <label for="date"
+                            style="font-weight: 600; font-size: 0.9rem; margin-bottom: 8px; display: block;">Event Date
+                            (Tentative)</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div>
+                        <label for="message"
+                            style="font-weight: 600; font-size: 0.9rem; margin-bottom: 8px; display: block;">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell us about your event..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>About MAS Mahal</h3>
+                <p>A premium destination for all your auspicious events. Located in the heart of Tirupathur, we offer
+                    luxury and comfort at an affordable price.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html">Wedding Hall</a></li>
+                    <li><a href="services.html">Corporate Events</a></li>
+                    <li><a href="services.html">Birthday Parties</a></li>
+                    <li><a href="services.html">Dining Hall</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <ul>
+                    <li>Housing Board, Tirupathur</li>
+                    <li>Tamil Nadu - 635601</li>
+                    <li><strong>Phone:</strong> +91 99658 57746</li>
+                    <li><strong>Email:</strong> info@masmahal.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="current-year"></span> MAS Mahal. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+
+</body>
+
+</html>
