@@ -3,7 +3,7 @@
         <div class="footer-grid">
             <div class="footer-col">
                 <h3>About MAS Mahal</h3>
-                <p>A premium destination for all your auspicious events. Located in the heart of Tirupathur, we offer
+                <p>A premium destination for all your auspicious events. Located in the heart of Tirupattur, we offer
                     luxury and comfort at an affordable price.</p>
             </div>
             <div class="footer-col">
@@ -27,7 +27,7 @@
             <div class="footer-col">
                 <h3>Contact Info</h3>
                 <ul>
-                    <li>Housing Board, Tirupathur</li>
+                    <li>Housing Board, Tirupattur</li>
                     <li>Tamil Nadu - 635601</li>
                     <li><strong>Phone:</strong> +91 99658 57746</li>
                     <li><strong>Email:</strong> info@masmahal.com</li>

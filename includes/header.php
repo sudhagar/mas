@@ -40,7 +40,7 @@
             <div>
                 <span><i style="color:var(--secondary-color)">&#9990;</i> +91 99658 57746</span>
                 <span style="margin-left: 20px"><i style="color:var(--secondary-color)">&#9993;</i> Housing Board,
-                    Tirupathur</span>
+                    Tirupattur</span>
             </div>
             <div>
                 <!-- Social Icons or Opening Hours could go here -->
